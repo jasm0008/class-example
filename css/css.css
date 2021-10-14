@@ -126,6 +126,29 @@ body{
 
     text-decoration:underline; /* if you want to remove the underline from links, set text-decoration none */
     
+    /* if you have a lise, use list-style to control the bullets */
     list-style:none; /*this removes bullets from a list (but is already in the CSS reset) */
 
+}
+
+/* apply CSS to multiple elements by listing them with a comma */
+.image-contain, .image-cover{
+    border: black 3px solid;
+    width:400px;
+    height:200px;
+    background-image:url(../images/bread.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+
+/* background-size allows you to scale the background - either with a fixed value in */
+
+.image-contain{
+    /* contain scales the background image so it's always inside the element */
+    background-size:contain;
+}
+
+.image-cover{
+    /* cover scales the background image so it's always covering the element */
+    background-size:cover;
 }
