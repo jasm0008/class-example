@@ -61,7 +61,7 @@ html{
 
 body{
     background-color: red;
-    font-size:22px;
+    background-image:url(../images/white_brick_wall.png);
 }
 
 /* use a class to target an element with a . */
