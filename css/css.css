@@ -61,7 +61,11 @@ html{
 
 body{
     background-color: red;
+    /* apply background image */
     background-image:url(../images/white_brick_wall.png);
+    /* control how the background repeats 
+    you can also make it repeat by putting "repeat"*/
+    background-repeat:no-repeat; 
 }
 
 /* use a class to target an element with a . */
@@ -93,6 +97,16 @@ body{
     background-color: blue;
     width:40vw;
     height:40vh;
+
+    /* positioning a background
+    background-image:urll("../images/bread.jpg");
+    contro lthe spot background image starts
+    background-position: 40px 20px;  sets the horizontal then the verticle position of the image
+    background-repeat: no-repeat; */
+
+    /* background shorthand replaces the indivisual background properties in one 
+    line the order is: colour, url, repeat, position-x, position-y */
+    background: blue url("../images/bread.jpg") no repeat right bottom;
 }
 
 .using-percent{
