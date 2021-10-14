@@ -103,9 +103,15 @@ body{
 
     /* CSS Typography Options */
     font-size:16px; /*you can set the font size using any unit of measurement - usually it's set with px, em, or rem */
-    line-height:1.3em; /*ine height is often set using ems, so its relative to the size of the font*/
+    line-height:1.3em; /*line height is often set using ems, so its relative to the size of the font*/
 
     font-weight:bold; /*font weight is how thick the font is*/
     font-weight:italic; /*font weight is how thick the font is*/
+
+    letter-spacing: 0.1em; /*set the space between the letter (kerning)*/
+
+    text-decoration:underline; /* if you want to remove the underline from links, set text-decoration none */
     
+    list-style:none; /*this removes bullets from a list (but is already in the CSS reset) */
+
 }
